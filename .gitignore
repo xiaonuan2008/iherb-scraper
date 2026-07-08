@@ -1,7 +1,8 @@
 __pycache__/
 *.pyc
-output/*.csv
 .venv/
 venv/
 *.egg-info/
 .DS_Store
+# output/ 下的示例 CSV 纳入版本控制（重新爬取会被覆盖更新）
+
