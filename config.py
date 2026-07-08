@@ -19,7 +19,7 @@ MODE = 'keyword'
 #   KEYWORDS = ['collagen']
 # 多个品类批量跑（每个关键词独立翻页）：
 #   KEYWORDS = ['collagen', 'vitamin c', 'omega-3', 'probiotics', 'magnesium']
-KEYWORDS = ['collagen']
+KEYWORDS = ['CoQ10']
 
 # ---------- 品牌过滤（可选，留空 = 不过滤）----------
 # 只在搜索结果里保留匹配的品牌。支持模糊匹配（包含即保留）。
@@ -27,7 +27,7 @@ KEYWORDS = ['collagen']
 BRAND_FILTER = []
 
 # ---------- 爬取控制（防封 + 限速）----------
-MAX_PAGES    = 2     # 每个关键词最多翻几页（每页约 48 个商品）
+MAX_PAGES    = 1     # 每个关键词最多翻几页（每页约 48 个商品）
 PAGE_DELAY   = 3     # 搜索页翻页之间的延迟（秒）
 DETAIL_DELAY = 2     # 每个商品详情页之间的延迟（秒）
 CF_WAIT      = 12    # Cloudflare 验证等待时间（秒，仅在首次/触发验证时需要）
